@@ -1,0 +1,473 @@
+/* style.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+   list-style-type: none;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'Cafe24Shiningstar';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* main */
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/main.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.main-box{
+    margin: 0 auto;
+    outline: 1px solid red;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.main-box .box1{
+    width: 800px;
+    height: 480px;
+    border: 8px solid #fff;
+    margin: 0 auto;
+}
+
+
+.main-box .box1 >p{
+    text-transform: uppercase;
+    font-size: 200px;
+    color: #950000;
+    margin-top: 120px;
+    font-family: 'Cafe24Shiningstar';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+}
+
+
+/* .main-box .box2{
+    width: 800px;
+    height: 480px;
+    border: 8px solid #000;
+    margin-left: 530px;
+    margin-top: -500px;
+} */
+
+
+.indicator{
+    position:fixed;
+    top:50%;
+    right:20px;
+    transform:translateY(-50%);
+    padding: 10px;
+    line-height: 30px;
+}
+
+.indicator li a{
+    color: #333;
+    font-size: 10px;
+}
+
+
+
+/* about */
+#about{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.about-box1{
+    width: 660px;
+    height: 750px;
+    background: #D5ADAD;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.about-box2{
+    width: 660px;
+    height: 750px;
+    background: #ECD3D3;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.about-box2 h2{
+    font-size: 40px;
+    position: absolute;
+    left: 430px;
+    top: 140px;
+    outline: 1px solid red;
+}
+
+
+/* profile */
+.profile{
+    margin-left: 900px;
+    padding-top: 200px;
+}
+
+.profile-box{
+    outline: 1px solid red;
+    right: 50%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.profile h2{
+    width: 200px;
+    font-size: 30px;
+}
+
+.txt-box1{
+    width: 130px;
+    text-align: left;
+    outline: 1px solid blue;
+}
+
+.txt-box1 >p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.txt-box2{
+    padding-left: 60px;
+}
+
+.txt-box2 >p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.lisence-box{
+    outline: 1px solid red;
+    right: 50%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.skills-box{
+    outline: 1px solid red;
+    right: 50%;
+    display: flex;
+}
+
+
+/* portfolio */
+#portfolio-web{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#portfolio-web h2{
+   text-transform: uppercase;
+   font-size: 40px;
+   outline: 1px solid red;
+   text-align: center;
+   padding-top: 100px;
+   
+}
+
+#portfolio-web p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+#portfolio-web .web1{
+    margin-top: 150px;
+    margin-left: 550px;
+    display: flex;
+}
+
+#portfolio-web img{
+    width: 700px;
+    height: 500px;
+    outline: 1px solid red;
+}
+
+#portfolio-web .web1-info{
+    width: 300px;
+    outline: 1px solid red;
+    justify-content: center;
+}
+
+#portfolio-web .web1-info h3 img{
+   width: 150px;
+   height: 50px;
+}
+#portfolio-web .web1-info p{
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#portfolio-web .web1-info .btn ul{
+    width: 220px;
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#portfolio-web .web1-info .btn ul li{
+    outline: 1px solid green;
+    padding: 10px 15px;
+   
+}
+
+
+/* web2 */
+
+#portfolio-web2{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#portfolio-web2 h2{
+   text-transform: uppercase;
+   font-size: 40px;
+   outline: 1px solid red;
+   text-align: center;
+   padding-top: 100px;
+   
+}
+
+#portfolio-web2 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+#portfolio-web2 .web2{
+    margin-top: 150px;
+    margin-left: 550px;
+    display: flex;
+}
+
+#portfolio-web2 img{
+    width: 700px;
+    height: 500px;
+    outline: 1px solid red;
+}
+
+#portfolio-web2 .web1-info2{
+    width: 300px;
+    outline: 1px solid red;
+    justify-content: center;
+}
+
+#portfolio-web2 .web1-info2 h3 img{
+    width: 100px;
+    height: 50px;
+}
+#portfolio-web2 .web1-info2 p{
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#portfolio-web2 .web1-info2 .btn2 ul{
+    width: 220px;
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#portfolio-web2 .web1-info2 .btn2 ul li{
+    outline: 1px solid green;
+    padding: 10px 15px;
+   
+}
+
+
+/* web3 */
+#portfolio-web3{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#portfolio-web3 h2{
+   text-transform: uppercase;
+   font-size: 40px;
+   outline: 1px solid red;
+   text-align: center;
+   padding-top: 100px;
+   
+}
+
+#portfolio-web3 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+#portfolio-web3 .web3{
+    margin-top: 150px;
+    margin-left: 550px;
+    display: flex;
+}
+
+#portfolio-web3 img{
+    width: 700px;
+    height: 500px;
+    outline: 1px solid red;
+}
+
+#portfolio-web3 .web1-info3{
+    width: 300px;
+    outline: 1px solid red;
+    justify-content: center;
+}
+
+#portfolio-web3 .web1-info3 h3 img{
+   width: 120px;
+   height: 40px;
+}
+#portfolio-web3 .web1-info3 p{
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#portfolio-web3 .web1-info3 .btn3 ul{
+    width: 220px;
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#portfolio-web3 .web1-info3 .btn3 ul li{
+    outline: 1px solid green;
+    padding: 10px 15px;
+}
+
+
+/* web4 */
+#portfolio-web4{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#portfolio-web4 h2{
+   text-transform: uppercase;
+   font-size: 40px;
+   outline: 1px solid red;
+   text-align: center;
+   padding-top: 100px;
+   
+}
+
+#portfolio-web4 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+#portfolio-web4 .web4{
+    margin-top: 150px;
+    margin-left: 550px;
+    display: flex;
+}
+
+#portfolio-web4 img{
+    width: 700px;
+    height: 500px;
+    outline: 1px solid red;
+}
+
+#portfolio-web4 .web1-info4{
+    width: 300px;
+    outline: 1px solid red;
+    justify-content: center;
+}
+
+#portfolio-web4 .web1-info4 h3 img{
+   width: 140px;
+   height: 60px;
+}
+#portfolio-web4 .web1-info4 p{
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#portfolio-web4 .web1-info4 .btn4 ul{
+    width: 220px;
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#portfolio-web4 .web1-info4 .btn4 ul li{
+    outline: 1px solid green;
+    padding: 10px 15px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#portfolio-design{
+    width: 100%;
+    height: 100vh;
+    background: #ddd;
+}
+
+
+#portfolio-design .design-box{ 
+    width: 1200px;
+    height: 600px;
+    border: 1px solid green;
+    margin: 0 auto;
+    display: flex;
+}
+
+#portfolio-design .design-box .box{ 
+  
+    width: 250px;
+    height: 250px;
+    border: 1px solid blue;
+} */
