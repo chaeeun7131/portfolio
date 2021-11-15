@@ -6,6 +6,7 @@
 }
 a{
     text-decoration: none;
+    color: #333;
 }
 
 ul{
@@ -17,49 +18,62 @@ body{
 }
 
 .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 @font-face {
-    font-family: 'Cafe24Shiningstar';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+    font-family: 'Cafe24Dongdong';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-/* main */
 
+/* main */
 #main{
     width: 100%;
     height: 100vh;
-    /* background-image: url(images/main.jpg);
-    background-size: cover; */
-    background: #435163;
-    /* border: 30px solid #435163; */
+    background-image: url(images/main2.jpg);
+    background-size: cover;
+    background-position:center;
+    /* background: #435163; */
+    /* border: 20px solid #435163; */
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
 }
 
-.main-box{
-    outline: 1px solid red;
-}
 
 .main-box .box1{
     width: 800px;
     height: 480px;
-    border: 8px solid #fff;
+    /* border: 8px solid #ccc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .main-box .box1 p{
     text-transform: uppercase;
-    font-size: 200px;
-    color: #950000;
-    margin-top: 120px;
-    font-family: 'Cafe24Shiningstar';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+    font-size: 100px;
+    color: #3A565C;
+    font-family: 'Cafe24Dongdong';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
 }
 
 .indicator{
@@ -94,7 +108,7 @@ body{
     position: absolute;
     left: 430px;
     top: 140px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     border-bottom: 3px solid #333;
 }
 
@@ -114,7 +128,7 @@ body{
 }
 
 .profile-box{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     right: 50%;
     display: flex;
     margin-bottom: 100px;
@@ -128,7 +142,7 @@ body{
 .txt-box1{
     width: 130px;
     text-align: left;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .txt-box1 >p{
@@ -147,32 +161,34 @@ body{
 }
 
 .lisence-box{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     right: 50%;
     display: flex;
     margin-bottom: 100px;
 }
 
 .skills-box{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     right: 50%;
     display: flex;
 }
 
 
 /* portfolio */
+
 #portfolio-web{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    /* background: lightgray */
+    background-image: url(images/bg.jpg);
+    background-size: 100%;
 }
 
 
 #portfolio-web h2{
    text-transform: uppercase;
    font-size: 40px;
-   outline: 1px solid red;
+   /* outline: 1px solid red; */
    text-align: center;
    padding-top: 100px;
 }
@@ -193,18 +209,18 @@ body{
 #portfolio-web img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-right: 100px;
 }
 
 #portfolio-web .web1-info{
     width: 300px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     justify-content: center;
 }
 
 #portfolio-web .web1-info h3 img{
-   width: 150px;
+   width: 100px;
    height: 50px;
    margin-top: 100px;
 }
@@ -255,7 +271,7 @@ body{
 #portfolio-web2 img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-right: 100px;
 }
 
@@ -266,7 +282,7 @@ body{
 }
 
 #portfolio-web2 .web1-info2 h3 img{
-    width: 100px;
+    width: 150px;
     height: 50px;
     margin-top: 100px;
 }
@@ -318,7 +334,7 @@ body{
 #portfolio-web3 img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-right: 100px;
 }
 
@@ -336,7 +352,8 @@ body{
 #portfolio-web3 .web1-info3 p{
     text-align: left;
     font-size: 16px;
-    margin-bottom: 10px;    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 #portfolio-web3 .web1-info3 .project{
@@ -379,18 +396,18 @@ body{
 #portfolio-web4 img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-right: 100px;
 }
 
 #portfolio-web4 .web1-info4{
     width: 300px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     justify-content: center;
 }
 
 #portfolio-web4 .web1-info4 h3 img{
-   width: 130px;
+   width: 150px;
    height: 50px;
    margin-top: 100px;
 }
@@ -435,7 +452,7 @@ body{
 #portfolio-mobile h2{
    text-transform: uppercase;
    font-size: 40px;
-   outline: 1px solid red;
+   /* outline: 1px solid red; */
    text-align: center;
    padding-top: 100px;
    
@@ -457,13 +474,13 @@ body{
 #portfolio-mobile img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-right: 100px;
 }
 
 #portfolio-mobile .mobile-info{
     width: 300px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     justify-content: center;
 }
 
@@ -519,13 +536,13 @@ body{
 #portfolio-mobile2 img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-right: 100px;
 }
 
 #portfolio-mobile2 .mobile-info2{
     width: 300px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     justify-content: center;
 }
 
@@ -575,7 +592,7 @@ body{
 #portfolio-design h2{
    text-transform: uppercase;
    font-size: 40px;
-   outline: 1px solid red;
+   /* outline: 1px solid red; */
    text-align: center;   
    padding-top: 100px;
 }
@@ -613,7 +630,7 @@ body{
 #portfolio-design .design-box2{ 
     width: 1200px;
     height: 250px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -643,13 +660,13 @@ body{
 #contact-me{
     width: 100%;
     height: 100vh;
-    background: #ccc;
+    /* background: #ccc; */
 }
 
 #contact-me h2{
    text-transform: uppercase;
    font-size: 40px;
-   outline: 1px solid red;
+   /* outline: 1px solid red; */
    text-align: center;
    padding-top: 100px;
 }
@@ -657,7 +674,7 @@ body{
 .contact-box{
     width: 1200px;
     height: calc(100% - 258px);
-    border: 10px solid #fff;
+    border: 10px solid #3A565C;
     margin: 0 auto;
     align-items: center;
     text-align: center;
@@ -665,7 +682,7 @@ body{
 
 .contact-box h3{
     font-size: 30px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-top: 520px
 }
 
@@ -674,7 +691,7 @@ body{
     display:flex;
     align-items: center;
     text-align: center;
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -684,25 +701,26 @@ body{
 .contact img{
     width: 200px;
     height: 250px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .contact .contact-info p{
     font-size: 20px;
     padding: 20px 50px;
-    outline: 1px solid red;
-    text-align: left;
+    /* outline: 1px solid red; */
+    text-align-last: left;
 }
 
 
 .copyright{
     width: 100%;
     height: 100px;
-    background: #333;
+    background: #ccc;
     display: flex;
     align-items: center;
     margin: 0 auto;
     justify-content: center;
 }
+
 
 
