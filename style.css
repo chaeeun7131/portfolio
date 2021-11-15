@@ -248,7 +248,7 @@ body{
 }
 
 #portfolio-web .web1-info .btn ul li{
-    outline: 1px solid green;
+    outline: 1px solid #3A565C;
     padding: 10px 15px;
 }
 
@@ -277,7 +277,7 @@ body{
 
 #portfolio-web2 .web1-info2{
     width: 300px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     justify-content: center;
 }
 
@@ -310,7 +310,7 @@ body{
 }
 
 #portfolio-web2 .web1-info2 .btn2 ul li{
-    outline: 1px solid green;
+    outline: 1px solid #3A565C;
     padding: 10px 15px;
    
 }
@@ -340,7 +340,7 @@ body{
 
 #portfolio-web3 .web1-info3{
     width: 300px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     justify-content: center;
 }
 
@@ -373,7 +373,7 @@ body{
 }
 
 #portfolio-web3 .web1-info3 .btn3 ul li{
-    outline: 1px solid green;
+    outline: 1px solid #3A565C;
     padding: 10px 15px;
 }
 
@@ -436,7 +436,7 @@ body{
 }
 
 #portfolio-web4 .web1-info4 .btn4 ul li{
-    outline: 1px solid green;
+    outline: 1px solid #3A565C;
     padding: 10px 15px;
    
 } 
@@ -513,7 +513,7 @@ body{
 }
 
 #portfolio-mobile .mobile-info .btn ul li{
-    outline: 1px solid green;
+    outline: 1px solid #3A565C;
     padding: 10px 15px;
    
 }
@@ -575,7 +575,7 @@ body{
 }
 
 #portfolio-mobile2 .mobile-info2 .btn ul li{
-    outline: 1px solid green;
+    outline: 1px solid #3A565C;
     padding: 10px 15px;
 }
 
