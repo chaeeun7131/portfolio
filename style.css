@@ -59,22 +59,67 @@ body{
 
 
 .main-box .box1{
-    width: 800px;
-    height: 480px;
+    /* width: 800px;
+    height: 480px; */
     /* border: 8px solid #ccc; */
+    width: 100%;  
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.main-box .box1 h1{
+    height: 100px;
+}
 
-.main-box .box1 p{
-    text-transform: uppercase;
-    font-size: 100px;
+h1 span{
     color: #3A565C;
     font-family: 'Cafe24Dongdong';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
-}
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .4s ease infinite alternate;
+    font-size: 100px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .4);
+  }
+  
+h1 span:nth-child(2) { animation-delay: .1s; }
+h1 span:nth-child(3) { animation-delay: .2s; }
+h1 span:nth-child(4) { animation-delay: .3s; }
+h1 span:nth-child(5) { animation-delay: .4s; }
+h1 span:nth-child(6) { animation-delay: .5s; }
+h1 span:nth-child(7) { animation-delay: .6s; }
+h1 span:nth-child(8) { animation-delay: .7s; }
+h1 span:nth-child(9) { animation-delay: .8s; }
+  
+  @keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #CCC,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 7px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 9px 0 #CCC,
+                   0 50px 25px rgba(0, 0, 0, .2);
+    }
+  }
+
 
 .indicator{
     position:fixed;
@@ -91,7 +136,7 @@ body{
 }
 
 .indicator li a:hover{
-    color: #950000;
+    color: #3A565C;
     font-size: 10px;
 }
 
@@ -99,37 +144,42 @@ body{
 /* about */
 #about{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: relative;
+    background: #ccc;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-box{
+    width: 300px;
+    height: 500px;
+    margin-right: 200px;
+    outline: 1px solid red;
 }
 
 .about-box h2{
     font-size: 40px;
-    position: absolute;
-    left: 430px;
-    top: 140px;
-    /* outline: 1px solid red; */
     border-bottom: 3px solid #333;
+    text-align: center;
 }
 
 .about-box img{
-    width: 400px;
-    height: 500px;
-    position: absolute;
-    left: 334px;
-    top: 200px;
+    width: 300px;
+    height: 400px;
+    position: relative;
 }
 
 
 /* profile */
 .profile{
-    margin-left: 900px;
-    padding-top: 200px;
+   display: inline-block;
+   outline: 1px solid #333;
 }
 
 .profile-box{
-    /* outline: 1px solid red; */
-    right: 50%;
     display: flex;
     margin-bottom: 100px;
 }
@@ -142,7 +192,7 @@ body{
 .txt-box1{
     width: 130px;
     text-align: left;
-    /* outline: 1px solid blue; */
+    outline: 1px solid blue;
 }
 
 .txt-box1 >p{
@@ -162,60 +212,64 @@ body{
 
 .lisence-box{
     /* outline: 1px solid red; */
-    right: 50%;
     display: flex;
     margin-bottom: 100px;
 }
 
 .skills-box{
     /* outline: 1px solid red; */
-    right: 50%;
     display: flex;
 }
 
 
 /* portfolio */
 
+.main-container{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(images/bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed; */
+}
+
 #portfolio-web{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background-image: url(images/bg.jpg);
-    background-size: 100%;
+    background: lightblue;
 }
 
 
 #portfolio-web h2{
    text-transform: uppercase;
    font-size: 40px;
-   /* outline: 1px solid red; */
    text-align: center;
-   padding-top: 100px;
+   padding-top: 20px;
 }
 
 #portfolio-web p{
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
+    margin-bottom: 100px;
 }
 
 
 #portfolio-web .web1{
-    margin-top: 150px;
     display: flex;
     justify-content: center;
 }
 
 #portfolio-web img{
-    width: 700px;
-    height: 500px;
-    /* outline: 1px solid red; */
+    width: 800px;
+    height: 600px;
+    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-web .web1-info{
     width: 300px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -259,7 +313,7 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    /* background: lightslategray; */
+    background: lightslategray;
 }
 
 #portfolio-web2 .web2{
@@ -271,13 +325,13 @@ body{
 #portfolio-web2 img{
     width: 700px;
     height: 500px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-web2 .web1-info2{
     width: 300px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -321,7 +375,7 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    /* background: lightseagreen; */
+    background: lightseagreen;
 }
 
 
@@ -334,13 +388,13 @@ body{
 #portfolio-web3 img{
     width: 700px;
     height: 500px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-web3 .web1-info3{
     width: 300px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -383,7 +437,7 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    /* background: lightyellow */
+    background: lightyellow
 }
 
 
@@ -396,13 +450,13 @@ body{
 #portfolio-web4 img{
     width: 700px;
     height: 500px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-web4 .web1-info4{
     width: 300px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -446,15 +500,15 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    /* background: lightpink; */
+    background: lightpink;
 }
 
 #portfolio-mobile h2{
    text-transform: uppercase;
    font-size: 40px;
-   /* outline: 1px solid red; */
+   outline: 1px solid red;
    text-align: center;
-   padding-top: 100px;
+   padding-top: 20px;
    
 }
 
@@ -462,11 +516,12 @@ body{
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
+    margin-bottom: 100px;
 }
 
 
 #portfolio-mobile .mobile{
-    margin-top: 150px;
+    /* margin-top: 150px; */
     display: flex;
     justify-content: center;
 }
@@ -474,13 +529,13 @@ body{
 #portfolio-mobile img{
     width: 700px;
     height: 500px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-mobile .mobile-info{
     width: 300px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -523,7 +578,7 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    /* background: lightblue; */
+    background: lightblue;
 }
 
 
@@ -536,13 +591,13 @@ body{
 #portfolio-mobile2 img{
     width: 700px;
     height: 500px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-mobile2 .mobile-info2{
     width: 300px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -586,7 +641,7 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    /* background: #e9caca; */
+    background: #e9caca;
 }
 
 #portfolio-design h2{
@@ -660,7 +715,7 @@ body{
 #contact-me{
     width: 100%;
     height: 100vh;
-    /* background: #ccc; */
+    background: #ccc;
 }
 
 #contact-me h2{
@@ -715,7 +770,7 @@ body{
 .copyright{
     width: 100%;
     height: 100px;
-    background: #ccc;
+    background: #333;
     display: flex;
     align-items: center;
     margin: 0 auto;
