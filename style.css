@@ -146,7 +146,6 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     width: 100%;
     height: 100%;
     position: relative;
-    background: #ccc;
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -157,7 +156,7 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     width: 300px;
     height: 500px;
     margin-right: 200px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .about-box h2{
@@ -192,7 +191,7 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 .txt-box1{
     width: 130px;
     text-align: left;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .txt-box1 >p{
@@ -227,16 +226,15 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 .main-container{
     width: 100%;
     height: 100%;
-    /* background-image: url(images/bg.jpg);
+    background-image: url(images/bg.jpg);
     background-size: 100%;
-    background-attachment: fixed; */
-}
+    background-attachment: fixed; 
+} 
 
 #portfolio-web{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background: lightblue;
 }
 
 
@@ -263,13 +261,11 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 #portfolio-web img{
     width: 800px;
     height: 600px;
-    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-web .web1-info{
     width: 300px;
-    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -313,7 +309,6 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background: lightslategray;
 }
 
 #portfolio-web2 .web2{
@@ -325,13 +320,11 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 #portfolio-web2 img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-web2 .web1-info2{
     width: 300px;
-    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -375,7 +368,6 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background: lightseagreen;
 }
 
 
@@ -388,13 +380,11 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 #portfolio-web3 img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-web3 .web1-info3{
     width: 300px;
-    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -437,7 +427,6 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background: lightyellow
 }
 
 
@@ -450,13 +439,11 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 #portfolio-web4 img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-web4 .web1-info4{
     width: 300px;
-    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -500,13 +487,11 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background: lightpink;
 }
 
 #portfolio-mobile h2{
    text-transform: uppercase;
    font-size: 40px;
-   outline: 1px solid red;
    text-align: center;
    padding-top: 20px;
    
@@ -529,13 +514,11 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 #portfolio-mobile img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-mobile .mobile-info{
     width: 300px;
-    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -578,7 +561,6 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background: lightblue;
 }
 
 
@@ -591,13 +573,11 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 #portfolio-mobile2 img{
     width: 700px;
     height: 500px;
-    outline: 1px solid red;
     margin-right: 100px;
 }
 
 #portfolio-mobile2 .mobile-info2{
     width: 300px;
-    outline: 1px solid red;
     justify-content: center;
 }
 
@@ -641,7 +621,6 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background: #e9caca;
 }
 
 #portfolio-design h2{
@@ -678,7 +657,7 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 
 #portfolio-design .design-box .box img{
     width: 280px;
-    height: 250px
+    height: 250px;
 }
 
 
@@ -721,7 +700,6 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 #contact-me h2{
    text-transform: uppercase;
    font-size: 40px;
-   /* outline: 1px solid red; */
    text-align: center;
    padding-top: 100px;
 }
