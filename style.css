@@ -175,7 +175,7 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 /* profile */
 .profile{
    display: inline-block;
-   outline: 1px solid #333;
+   /* outline: 1px solid #333; */
 }
 
 .profile-box{
