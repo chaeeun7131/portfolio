@@ -487,6 +487,7 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     width: 100%;
     height: 100vh;
     margin: 0 auto;
+    margin-bottom: 200px;
 }
 
 #portfolio-mobile h2{
@@ -563,11 +564,26 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     margin: 0 auto;
 }
 
+#portfolio-mobile2 h2{
+   text-transform: uppercase;
+   font-size: 40px;
+   text-align: center;
+   padding-top: 20px;
+   
+}
+
+#portfolio-mobile2 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+
 
 #portfolio-mobile2 .mobile2{
+    /* margin-top: 150px; */
     display: flex;
     justify-content: center;
-    padding-top: 193px;
 }
 
 #portfolio-mobile2 img{
@@ -582,14 +598,14 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 }
 
 #portfolio-mobile2 .mobile-info2 h3 img{
-   width: 100px;
-   height: 70px;
+   width: 130px;
+   height: 50px;
    margin-top: 100px;
 }
 #portfolio-mobile2 .mobile-info2 p{
     text-align: left;
     font-size: 16px;
-    margin-bottom: 10px;  
+    margin-bottom: 10px;
     margin-top: 50px;
 }
 
@@ -616,6 +632,7 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 
 
 
+
 /* design */
 #portfolio-design{
     width: 100%;
@@ -628,7 +645,6 @@ h1 span:nth-child(9) { animation-delay: .8s; }
    font-size: 40px;
    /* outline: 1px solid red; */
    text-align: center;   
-   padding-top: 100px;
 }
 
 #portfolio-design p{
@@ -640,30 +656,28 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 
 
 #portfolio-design .design-box{ 
-    width: 1200px;
-    height: 250px;
-    border: 1px solid green;
+    width: 1500px;
+    height: 280px;
     margin: 0 auto; 
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 #portfolio-design .design-box .box{ 
     width: 280px;
-    height: 250px;
-    border: 1px solid blue;
+    height: 280px;
 } 
 
 #portfolio-design .design-box .box img{
     width: 280px;
-    height: 250px;
+    height: 280px;
 }
 
 
 #portfolio-design .design-box2{ 
-    width: 1200px;
-    height: 250px;
+    width: 1500px;
+    height: 280px;
     /* border: 1px solid green; */
     margin: 0 auto;
     display: flex;
@@ -672,9 +686,24 @@ h1 span:nth-child(9) { animation-delay: .8s; }
 
 #portfolio-design .design-box2 .box{ 
     width: 280px;
-    height: 250px;
-    border: 1px solid blue;
+    height: 280px;
 } 
+
+#portfolio-design .design-box2 .box img{ 
+    width: 280px;
+    height: 280px;
+} 
+
+#portfolio-design .design-box .box:hover{ 
+   opacity: 0.8;
+} 
+
+#portfolio-design .design-box2 .box:hover{ 
+    opacity: 0.8;
+ } 
+
+
+
 
 
 

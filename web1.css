@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+   list-style-type: none;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;  
+}
+
+#main .contents{
+    display: flex;
+    justify-content: center;
+}
+
+#main img{
+    width: 800px;
+    height: 600px;
+    margin-right: 80px;
+}
+
+#main .content{
+    width: 500px;
+    justify-content: center;
+}
+
+#main .content h3 img{
+    width: 150px;
+    height: 50px;
+    margin-top: 100px;
+}
+#main .content p{
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+#main .content .project{
+    display: flex;
+    text-align: left;
+    width: 180px;
+    justify-content: space-between;
+}
+
+#main .content .font{
+    display: flex;
+    text-align: left;
+    width: 240px;
+    justify-content: space-between;
+}
+
+
+#main .content .color{
+    display: flex;
+    text-align: left;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#main .content .color .box{
+    display: flex;
+    text-align: left;
+    width: 240px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#main .content .color .box .color1{
+    width: 50px;
+    height: 50px;
+    background: #0066CC;
+}
+
+#main .content .color .box .color2{
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: solid 1px #000;
+
+}
+
+#main .content .color .box .color3{
+    width: 50px;
+    height: 50px;
+    background: #333333;
+}
+
+#main .content .box1{
+    display: flex;
+    text-align: left;
+    width: 240px;
+    margin-left: 60px;
+    margin-top: 14px;
+    font-size: 14px;
+    justify-content: space-between;
+}
