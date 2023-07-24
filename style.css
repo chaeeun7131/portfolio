@@ -209,10 +209,10 @@ h1 span:nth-child(9) { animation-delay: .8s; }
     line-height: 30px;
 }
 
-.lisence-box{
+.license-box{
     /* outline: 1px solid red; */
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .skills-box{
